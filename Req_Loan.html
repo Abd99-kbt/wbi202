@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html dir="rtl" lang="ar" lang="en">
+<head>
+<title></title>
+    <body onload="GenerateCaptcha();">
+
+        <link rel="stylesheet"href="style.css">
+
+        <div class="logo">
+              
+            <img src="imags/logo2.png" width="59px"height="60px">
+            <h2>مؤسسة تمويلكم بأمان </h2>
+            <br>
+           <h3> <p>مؤسسة تهدف الى مساعدة القطاع الخاص بطرق شتى  </p></h3>
+            <br>
+            
+        </div>
+    
+        <ul class="nav">
+          <li><a href="home.html">الرئيسية </a></li>
+          <li><a href="Req_Loan.html">تقديم طلب</a></li>
+          <li><a href="products.html">منتجاتنا وخدماتنا  </a></li>
+          <li><a href="about us.html">من نحن </a></li>
+          </ul>
+          
+    
+
+      <div class="continer">
+      <form action="result.html">
+          <table align="center" border="border" bgcolor="#4b914c">
+              <td align="center" colspan="2"> استمارة تقديم طلب قرض </td>
+              <tr>
+                  <td align="center" bgcolor="#4b914c">اسم مقدم الطلب</td>
+                  <td align="center" bgcolor="#4b914c"><input type="text" name="name" id="name"></td>
+              </tr>
+              <tr>
+                <td align="center" bgcolor="#4b914c">رقم الموبايل</td>
+                <td align="center"><input type="number" name="Phone" id="Phone"></td>
+            </tr>
+              <tr>
+                  <td align="center" bgcolor="#4b914c">الرقم الوطني</td>
+                  <td align="center" bgcolor="#4b914c"><input type="number" name="national" id="national"></td>
+              </tr>
+              <tr>
+                <td align="center" bgcolor="#4b914c">البريد الألكتروني
+                </td>
+                <td align="center" bgcolor="#4b914c"><input type="email" name="email" id="email"></td>
+            </tr>
+              <tr>
+                  <td align="center" bgcolor="#4b914c">تاريخ الولادة </td>
+                  <td align="center" bgcolor="#4b914c"><input type="date" name="date" id="date"></td>
+              </tr>
+              <tr>
+                  <td align="center" bgcolor="#4b914c">قيمة القرض المطلوبة</td>
+                  <td align="center" bgcolor="#4b914c"><input type="number" name="amount" id="amount"></td>
+              </tr>
+              <tr>
+                  <td align="center" bgcolor="#4b914c">نوع القرض</td>
+                  <td align="center" bgcolor="#4b914c">
+                      <select name="type" id="type">
+                          <option value="قرض تعليمي">قرض تعليمي</option>
+                          <option value="قرض سكني">قرض سكني</option>
+                          <option value="قرض تجاري">قرض تجاري</option>
+                          <option value="قرض زراعي">قرض زراعي</option>
+                          <option value="قرض النقل">قرض النقل</option>
+                          <option value="قرض الورشات">قرض الورشات</option>
+                      </select>
+                  </td>
+              </tr>
+              <tr>
+                  <td align="center" bgcolor="#4b914c">عدد السنوات</td>
+                  <td align="center" bgcolor="#4b914c">
+                  <select name="time" id="time">
+                      <option value="3">3</option>
+                      <option value="5">5</option>
+                      <option value="10">10</option>
+                      <option value="15">15</option>
+                      <option value="20">20</option>
+                  </select>
+              </td>
+              </tr>
+              <tr>
+                  <td align="center" bgcolor="#4b914c">طريقة تسديد الدفعات</td>
+                  <td align="center" bgcolor="#4b914c">
+                  <select name="method" id="method">
+                      <option value="شهرية">شهرية </option>
+                      <option value="ربعية">ربعية </option>
+                      <option value="سنوية">سنوية</option>
+                  </select>
+              </td>
+              </tr>
+              <tr>
+                  <td align="center" bgcolor="#4b914c"> كود التحقق </td>  
+                  <td align="center" bgcolor="#4b914c">
+                  <input type="text" id="txtCompare" /> <br/> 
+                  <input type="text" id="txtCaptcha" />  <br/>
+                  <input type="button" id="btnrefresh" value="تحديث الرمز" onclick="GenerateCaptcha();" />
+              </td>
+              </tr>
+              <tr>
+                  <td bgcolor="#4b914c" colspan="2" align="center"><input type="submit" name="submit" id="submit" value="تقديم الطلب"  ></td>
+              </tr>
+          </table>
+      </form>
+      <footer>
+        <section class="footer">
+          <div class="social">
+            <a href="https://www.instagram.com/syrian_virtual_university/"><i class="fab fa-instagram"> <img src="imags/insta.png" width="33px" height="25px" >  </i></a>
+            <a href="https://www.youtube.com/channel/UCJwPgp0tOp1ZqkzbmDvFSaw"><i class="fab fa-youtube"> <img src="imags/youtube.png"width="33px" height="25px" ></i></a>
+            <a href="https://twitter.com/SVU_Syria"><i class="fab fa-twitter"> <img src="imags/twit.png" width="33px" height="25px"></i></a>
+            <a href="https://www.facebook.com/svuonline.org"><i class="fab fa-facebook-f"> <img src="imags/face.png"width="33px" height="25px" ></i></a>
+          </div>
+    
+      
+            <ul class="list">
+              <li>
+                <a href="home.html">Home</a>
+              </li>
+              <li>
+                <a href="Req_Loan.html">Services</a>
+              </li>
+              <li>
+                <a href="about us.html">About</a>
+              </li>
+              <li>
+                <a href="products.html">products</a>
+              </li>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ul>
+            <p class="copyright">svuonline @ 2022</p>
+          </section>
+      </footer>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

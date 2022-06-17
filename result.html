@@ -1,0 +1,125 @@
+<!DOCTYPE html dir="rtl" lang="ar" >
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl" lang="ar" lang="en ">
+<head>
+</head>
+<body>
+ 
+    <link rel="stylesheet"href="style.css">
+
+    <div class="logo">
+          
+        <img src="imags/logo2.png" width="59px"height="60px">
+        <h2>مؤسسة تمويلكم بأمان </h2>
+        <br>
+       <h3> <p>مؤسسة تهدف الى مساعدة القطاع الخاص بطرق شتى  </p></h3>
+        <br>
+        
+    </div>
+
+    
+
+
+    <ul class="nav">
+      <li><a href="home.html">الرئيسية </a></li>
+      <li><a href="Req_Loan.html">تقديم طلب</a></li>
+      <li><a href="products.html">منتجاتنا وخدماتنا  </a></li>
+      <li><a href="about us.html">من نحن </a></li>
+      </ul>
+
+      <script>
+      let CName=(window.localStorage.getItem("CName"));
+      let national=(window.localStorage.getItem("national"));
+      let date=(window.localStorage.getItem("date"));
+      let Phone=(window.localStorage.getItem("Phone"));
+      let email=(window.localStorage.getItem("email"));
+      let amount=(window.localStorage.getItem("amount"));
+      let txtCompare=(window.localStorage.getItem("txtCompare"));
+      let type=(window.localStorage.getItem("type"));
+      let time=(window.localStorage.getItem("time"));
+      let method=(window.localStorage.getItem("method"));
+      </script>
+  
+      <table border="border">
+        <tr>
+          <td>اسم مقدم الطلب</td>
+          <td><script>document.write(CName);</script></td>
+        </tr>
+        <tr>
+          <td>الرقم الوطني</td>
+          <td><script>document.write(national);</script></td>
+        </tr>
+        <tr>
+          <td>تاريخ الولادة</td>
+          <td><script>document.write(date);</script></td>
+        </tr>
+        <tr>
+          <td>رقم الموبايل</td>
+          <td><script>document.write(Phone);</script></td>
+        </tr>
+        <tr>
+          <td>البريد الالكتروني</td>
+          <td><script>document.write(email);</script></td>
+        </tr>
+        <tr>
+          <td>قيمة القرض المطلوبة</td>
+          <td><script>document.write(amount);</script></td>
+        </tr>
+        <tr>
+          <td>نوع القرض</td>
+          <td><script>document.write(type);</script></td>
+        </tr>
+        <tr>
+          <td>عدد السنوات</td>
+          <td><script>document.write(time);</script></td>
+        </tr>
+        <tr>
+          <td>طريقة تسديد الدفعات</td>
+          <td><script>document.write(method);</script></td>
+        </tr>
+        <tr>
+          <td>كود التحقق</td>
+          <td><script>document.write(txtCompare);</script></td>
+        </tr>
+      </table>
+  
+    </script>
+
+
+      
+      <footer>
+        <section class="footer">
+          <div class="social">
+            <a href="https://www.instagram.com/syrian_virtual_university/"><i class="fab fa-instagram"> <img src="imags/insta.png" width="33px" height="25px" >  </i></a>
+            <a href="https://www.youtube.com/channel/UCJwPgp0tOp1ZqkzbmDvFSaw"><i class="fab fa-youtube"> <img src="imags/youtube.png"width="33px" height="25px" ></i></a>
+            <a href="https://twitter.com/SVU_Syria"><i class="fab fa-twitter"> <img src="imags/twit.png" width="33px" height="25px"></i></a>
+            <a href="https://www.facebook.com/svuonline.org"><i class="fab fa-facebook-f"> <img src="imags/face.png"width="33px" height="25px" ></i></a>
+          </div>
+  
+      
+          <ul class="list">
+            <li>
+              <a href="home.html">Home</a>
+            </li>
+            <li>
+              <a href="Req_Loan.html">Services</a>
+            </li>
+            <li>
+              <a href="about us.html">About</a>
+            </li>
+            <li>
+              <a href="products.html">products</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul>
+          <p class="copyright">svuonline @ 2022</p>
+        </section>
+    </footer>
+
+</body>
+</html>
+
+
+
+
