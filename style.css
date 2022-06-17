@@ -1,0 +1,236 @@
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  ul.nav {
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:36px; line-height:36px;
+    background: #4b914c; /* you can change the backgorund color here. */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+ul.nav li {
+    border-right:1px solid #023006; /* you can change the border color matching to your background color */
+    float:left;
+    font-size: medium;
+}
+ul.nav a {
+    display:block;
+    padding:0 28px;
+    color:#d1dddd;
+    text-decoration:none;
+}
+ul.nav a:hover,
+ul.nav li.current a {
+    background:#4b914c;
+}
+
+
+
+  
+  body,
+  input {
+    font-family: "Poppins", sans-serif;
+  
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2px;
+    transition: all 0.2s 0.7s;
+    overflow: hidden;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    border: 20px  solid #4b914c;
+  }
+  .type-v{ display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-direction:row ;
+    margin-left: 50px;
+  }
+.type-v-h3{
+
+    border-bottom: 1px solid #000;
+
+}
+
+  .information{
+    background-image: url(file:///C:/Users/DELL/Downloads/undraw_handcrafts_profile_info.svg);
+    border: #55c2ac;
+    padding: 40px;
+    margin: calc(3,4,3);
+
+  }
+  table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem 5rem;
+    background-color:rgba(218, 219, 230, 0.712);
+    padding:  30px;
+    margin: auto;
+    border: 20px  solid #4b914c;
+  }
+    
+
+  .insid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem 5rem;
+  }
+  img{
+    
+    z-index:-10;
+    background-image:url("imags/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .main img{
+    width: 100%;
+    height: 70%;
+    display: flex;
+  align-items: center;
+  border: 20px  solid #4b914c;
+ 
+   
+  }
+.logo{
+  font-family:Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 5rem;
+  transition: all 0.2s 0.7s;
+  overflow: hidden;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+
+}
+.footer {
+  padding: 40px 0;
+  background-color: #4b914c;
+}
+
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #aac5b2;
+}
+
+.footer .social a {
+  font-size: 24px;
+  color: inherit;
+  border: none;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+
+.footer .social a:hover {
+  opacity: 0.9;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer ul a:hover {
+  opacity: 1;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(247, 247, 247, 0.89);
+}
+
+input[type=text] {
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button{
+background-color: #5cbb5c;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 12px 3px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+canvas{
+/*prevent interaction with the canvas*/
+pointer-events:none;
+}
+
+/* captcha*/
+
+
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+#type1{
+border: none;
+}
+
+.box {
+  background-color: #f1f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#pro{
+  color: #349234;
+
+}
